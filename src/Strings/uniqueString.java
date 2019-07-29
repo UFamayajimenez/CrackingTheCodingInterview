@@ -4,45 +4,8 @@ import java.util.Arrays;
 
 public class uniqueString {
 
-    static void isUnique2 (String word){
+    //The Problem: write a function that determines whether ot not a given string has all unique characters or not
 
-        boolean isUnique = true;
-
-        boolean[] char_set = new boolean[256];
-
-        for (int i = 0; i < word.length(); i++){
-
-            int val = word.charAt(i);
-
-            if(char_set[val]){
-                isUnique = false;
-            }
-            char_set[val] = true;
-        }
-
-
-        System.out.println(Arrays.toString(char_set));
-
-        if(isUnique){
-            System.out.println("unique");
-        }
-        else{
-            System.out.println("not unique");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
 
     static void isUnique(String word){
 
@@ -75,10 +38,6 @@ public class uniqueString {
             System.out.println("not unique");
         }
 
-
-
-
-
     }
 
 
@@ -93,18 +52,11 @@ public class uniqueString {
         String notUnique2 = "637743gksleeeoosjnfeoskfneiroklanfeilandierofwknmewkf";
 
 
-
-
-
-//        isUnique2(unique);
-//        isUnique(unique2);
+        isUnique(unique);
+        isUnique(unique2);
 
         isUnique(notUnique);
-//
-        isUnique2(notUnique);
-//        isUnique(notUnique2);
-
-
+        isUnique(notUnique2);
 
     }
 }

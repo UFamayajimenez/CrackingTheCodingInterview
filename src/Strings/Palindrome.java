@@ -53,8 +53,6 @@ public class Palindrome {
 
     public static void main (String args[]){
 
-
-
         String yesPalindrome = "racecar";
         String yesPalindrome2 = "madam";
         String yesPalindrome3 = "nurses run";
