@@ -1,4 +1,4 @@
-package Strings;
+package Arrays_and_Strings;
 
 
 
